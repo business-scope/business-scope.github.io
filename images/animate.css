@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@-webkit-keyframes widthAni{ 0%{ width:0;}100%{ width:100%;}}
+@keyframes widthAni{ 0%{ width:0;}100%{ width:100%;}}
+.widthAni{ -webkit-animation-name:widthAni; animation-name:widthAni;}
+
+@-webkit-keyframes heightAni{ 0%{ height:0;}100%{ height:100%;}}
+@keyframes heightAni{ 0%{ height:0;}100%{ height:100%;}}
+.heightAni{ -webkit-animation-name:heightAni; animation-name:heightAni;}
+
+@-webkit-keyframes logoAin{ 0%{ transform:scale(1) translateY(100%);} 100%{ transform:scale(0.7) translateY(0);}}
+@keyframes logoAin { 0% { transform:scale(1) translateY(100%);} 100%{ transform:scale(0.7) translateY(0);}}
+.logoAin { -webkit-animation-name:logoAin; animation-name:logoAin;}
+
+@-webkit-keyframes opacity { 0%{ opacity:0;} 100%{ opacity:1;}}
+@keyframes opacity { 0%{ opacity:0;} 100%{ opacity:1;}}
+.opacity{ -webkit-animation-name:opacity; animation-name:opacity;}
+
+@-webkit-keyframes opacity2 { 0%{ opacity:0.8;} 100%{ opacity:0.75;}}
+@keyframes opacity2 { 0%{ opacity:0.8;} 100%{ opacity:0.75;}}
+.opacity2{ -webkit-animation-name:opacity2; animation-name:opacity2;}
+
+@-webkit-keyframes opacity3{ 0%{ opacity:0;} 40%{ opacity:1;} 100%{ opacity:0;}}
+@keyframes opacity3{ 0%{ opacity:0;} 40%{ opacity:1;} 100%{ opacity:0;}}
+.opacity3{ -webkit-animation-name:opacity3; animation-name:opacity3;}
+
+@-webkit-keyframes opacity4{ 0%{ opacity:1;} 40%{ opacity:0;} 100%{ opacity:1;}}
+@keyframes opacity4{ 0%{ opacity:1;} 40%{ opacity:0;} 100%{ opacity:1;}}
+.opacity4{ -webkit-animation-name:opacity4; animation-name:opacity4;}
+
+
+@-webkit-keyframes searchAni{ 0%{ height:100%; opacity:0;}100%{ height:0; opacity:1;}}
+@keyframes searchAni{  0%{ height:100%; opacity:0;}100%{ height:0; opacity:1;}}
+.searchAni{ -webkit-animation-name:searchAni; animation-name:searchAni;}
+
+
+
+@-webkit-keyframes cirAni{ 0%{ transform:rotate(0);}100%{ transform:rotate(360deg);}}
+@keyframes cirAni{  0%{ transform:rotate(0);}100%{ transform:rotate(360deg);}}
+.cirAni{ -webkit-animation-name:cirAni; animation-name:cirAni;}
+
+@-webkit-keyframes cirAni2{ 0%{ transform:rotate(360deg);}100%{ transform:rotate(0);}}
+@keyframes cirAni2{  0%{ transform:rotate(360deg);}100%{ transform:rotate(0);}}
+.cirAni2{ -webkit-animation-name:cirAni2; animation-name:cirAni2;}
+
+@-webkit-keyframes bulb{ 0%{ stroke-dashoffset:0;}100%{ stroke-dashoffset:216;}}
+@keyframes bulb{ 0%{ stroke-dashoffset:0;}100%{ stroke-dashoffset:216;}}
+.bulb{ -webkit-animation-name:bulb; animation-name:bulb;}
+
+
+
+@-webkit-keyframes bulbLine{ 0%{ top:0;}25%{ top:-10px;}50%{ top:0;}75%{ top:-15px;}100%{ top:0;}}
+@keyframes bulbLine{ 0%{ top:0;}25%{ top:-10px;}50%{ top:0;}75%{ top:-15px;}100%{ top:0;}}
+.bulbLine{ -webkit-animation-name:bulbLine; animation-name:bulbLine;}
