@@ -1,6 +1,6 @@
 // ����ͼ�� �Ѽ����� www.lanrentuku.com
 $(function(){
-	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a title=\"���߿ͷ�\" onClick=\"window.open(\'/goto.html\', \'_blank\', \'toolbar=no,scrollbars=yes,menubar=no,status=no,resizable=yes,location=no,width=780,height=550,top=100,left=200\');return false;\" class=\"btn btn-qq\"></a><div id=\"izl_rmenu1\" class=\"izl-rmenu1\"><a title=\"΢����ѯ\" href=\"/\" target=\"_blank\" class=\"btn btn-wx\"><img class=\"pic\" src=\"/img/wx.jpg\"/></a><a title=\"�绰��ѯ\" href=\"/ping.html\" target=\"_blank\"><div class=\"btn btn-phone\"><di130-7223-0298ne\">Tel:151-2267-5404</div></div></a><div class=\"btn btn-top\"></div></div>";
+	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a title=\"���߿ͷ�\" onClick=\"window.open(\'/Contact.html\', \'_blank\', \'toolbar=no,scrollbars=yes,menubar=no,status=no,resizable=yes,location=no,width=780,height=550,top=100,left=200\');return false;\" class=\"btn btn-qq\"></a><div id=\"izl_rmenu1\" class=\"izl-rmenu1\"><a title=\"΢����ѯ\" href=\"/\" target=\"_blank\" class=\"btn btn-wx\"><img class=\"pic\" src=\"/img/wx.jpg\"/></a><a title=\"�绰��ѯ\" href=\"/ping.html\" target=\"_blank\"><div class=\"btn btn-phone\"><di130-7223-0298ne\">Tel:151-2267-5404</div></div></a><div class=\"btn btn-top\"></div></div>";
 	$("#top").html(tophtml);
 	$("#izl_rmenu").each(function(){
 		$(this).find(".btn-wx").mouseenter(function(){
